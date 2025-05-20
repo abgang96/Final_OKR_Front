@@ -101,7 +101,7 @@ export default function WeeklyDiscussions() {
   return (
     <div>
       <Head>
-        <title>WEEKLY DISCUSSION | OKR Tracker</title>
+        <title>O3 DISCUSSION | OKR Tracker</title>
       </Head>
       <Header
         isAuthenticated={isAuthenticated}
@@ -110,7 +110,7 @@ export default function WeeklyDiscussions() {
       />
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold">WEEKLY DISCUSSION</h1>
+          <h1 className="text-3xl font-bold">O3 DISCUSSION</h1>
           
 
         </div>

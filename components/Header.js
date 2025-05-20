@@ -56,11 +56,11 @@ const Header = ({ isAuthenticated, user, hideWeeklyDiscussions, hideTeamDiscussi
                 {!hideWeeklyDiscussions && (
                   <li>
                     <Link href="/weekly-discussions" className={router.pathname === '/weekly-discussions' ? 'text-[#F6490D]' : ''}>
-                      WEEKLY DISCUSSION
+                      O3 DISCUSSION
                     </Link>
                   </li>
                 )}
-                {!hideTeamDiscussions && hasTeamMembers && (
+                { (
                   <li>
                     <Link href="/team-discussions" className={router.pathname === '/team-discussions' ? 'text-[#F6490D]' : ''}>
                       TEAM DISCUSSION
@@ -119,7 +119,7 @@ const Header = ({ isAuthenticated, user, hideWeeklyDiscussions, hideTeamDiscussi
               </li>
               <li>
                 <Link href="/weekly-discussions" className={router.pathname === '/weekly-discussions' ? 'text-[#F6490D]' : ''}>
-                  WEEKLY DISCUSSION
+                  O3 DISCUSSION
                 </Link>
               </li>
               <li>
